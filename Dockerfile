@@ -1,7 +1,7 @@
 FROM debian:stretch-slim
 
-ENV PG_MAJOR 9.6
-ENV PG_VERSION 9.6.9-2.pgdg90+1
+ENV PG_MAJOR 10
+ENV PG_VERSION 10.4-2.pgdg90+1
 
 RUN apt-get update && \
 		apt-get install -y --no-install-recommends gnupg dirmngr && \
